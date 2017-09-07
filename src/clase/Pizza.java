@@ -72,19 +72,6 @@ public class Pizza {
         return estado;
     }
 
-    /**
-     * @param aTotalPedidas the totalPedidas to set
-     */
-    public static void setTotalPedidas(int aTotalPedidas) {
-        totalPedidas = aTotalPedidas;
-    }
-
-    /**
-     * @param aTotalServidas the totalServidas to set
-     */
-    public static void setTotalServidas(int aTotalServidas) {
-        totalServidas = aTotalServidas;
-    }
 
     /**
      * @param tamaño the tamaño to set
@@ -108,7 +95,7 @@ public class Pizza {
     }
     
     public String toString(){
-        String estadoString = "";
+        String estadoString;
         if(estado){
             estadoString = "servida";
         }else{
