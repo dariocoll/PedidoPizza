@@ -1,7 +1,9 @@
 
 package clase;
 import java.util.Scanner;
-
+ /* @author Dario    
+ * @version 0.1
+*/
 public class PedidoPizza {
 
 
